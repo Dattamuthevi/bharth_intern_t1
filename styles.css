@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-left: 20px;
+    color: #333; 
+    background-image: url(OIP.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;/* Default text color */
+  }
+  .header-info {
+    margin-left: 20px;
+  }
+  
+  header {
+    border: 1px solid #151414;
+    padding: 10px;
+    display: flex;
+  }
+  h1{
+    color: #0e5ba8
+  }
+  .profile-image {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+    padding-left: 1250px;
+    vertical-align: middle;
+    position: absolute;
+    top: 10vh;
+    left:5vw;
+  }
+  
+  .content {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  h2 {
+    color: #1e90ff; 
+    text-decoration: underline;/* Color for section headings */
+  }
+
+  h3 {
+    color: #0d85fc;
+    text-decoration: underline; /* Color for section headings */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #8af31a;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #9fb7f0; /* Table header color */
+    color: #333; /* Table header text color */
+  }
+  
+  ul {
+    list-style-type: style type bull;;
+    margin-left: 20px;
+  }
+  footer{
+    margin-left: 20px;
+  }
+  .container {
+    position: relative;
+  }
+  
+  .signature {
+    position: absolute;
+    right: 0;
+    padding-left: 20px; /* Adjust padding as needed */
+    font-family: "Ink Free", sans-serif; /* Change the font to Ink Free */
+  }
+  
+  .sign{
+    position: absolute;
+    right: 0;
+    padding-left: 30px;
+    font-family:sans-serif;
+  }
+  .custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #0077B5; /* LinkedIn color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .custom-button:hover {
+    background-color: #005f88; /* Darker LinkedIn color on hover */
+  }
+  
+  .custom-button:active {
+    background-color: #004366; /* Even darker LinkedIn color on click */
+  }
+  /* Add more CSS styles for other elements as needed */
+  
